@@ -1,0 +1,257 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --dark-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--dark-blue);
+  background-color: white;
+}
+
+.header {
+  background-image: url(/public/images/bg-header-desktop.png);
+  background-size: cover;
+  width: 100vw;
+  height: 30vh;
+  position: relative;
+}
+
+.header__logo img{
+  width: 4rem;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* main*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* sections */
+.intro,
+.features,
+.access,
+.workflow,
+.clients {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 18px;
+  color: var(--grayish-blue);
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+/* button download*/
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2.5rem;
+  color: #fff;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
+
+.button--ios {
+  background-color: var(--cyan);
+}
+
+.button--mac {
+  background-color: var(--light-blue);
+}
+
+
+/*strat features */
+.features__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.features__image {
+  max-width: 500px;
+  width: 100%;
+  margin: 1rem;
+}
+
+.features__list {
+  max-width: 500px;
+  margin: 1rem;
+}
+
+.feature {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.feature__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature__description {
+  font-size: 1rem;
+}
+
+/*strar access */
+.access__image {
+  max-width: 600px;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/*strat workflow*/
+.workflow__tools {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.tool {
+  max-width: 300px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.tool__icon {
+  font-size: 3rem;
+  color: var(--cyan);
+  margin-bottom: 1rem;
+}
+
+.tool__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.tool__description {
+  font-size: 1rem;
+}
+
+/* strat clients*/
+.clients__logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.clients__logo {
+  max-width: 100px;
+  margin: 1rem;
+}
+
+/* footer*/
+.footer {
+  background-color: var(--dark-blue);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.clipboard-info {
+  text-align: center;
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.clipboard-info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.clipboard-info p {
+  max-width: 70%;
+  margin: 1rem auto;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  background-color: #EEE;
+  color: white;
+  padding: 2rem 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.footer-links li {
+  margin: 0 1.5rem;
+}
+
+.footer-links a {
+  color: black;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+
+
+.footer-socail{
+  position: relative;
+}
+.footer-socail ul{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 87%;
+  top:-50px ;
+
+
+ }
+ .footer-socail  a{
+margin: 0 1rem;
+}
+
+
+.footer-links .footer--logo , .footer-links img {
+  margin-right: 3rem;
+  width: 4rem;
+}
+

@@ -1,0 +1,103 @@
+ /* media screen small */
+ @media (max-width: 900px) {
+
+   .features__content,
+   .workflow__tools {
+     flex-direction: column;
+   }
+
+   .features__image,
+   .features__list,
+   .tool {
+     max-width: 100%;
+   }
+
+   .intro__download {
+     flex-direction: column;
+   }
+
+   .button {
+     width: 100%;
+     margin: 0.5rem 0;
+     font-size: 1.1rem;
+   }
+
+   .clipboard-info .download .button--mac{
+    margin-bottom:5rem ;
+   }
+
+   .header {
+     height: 20vh;
+   }
+
+   .intro__title,
+   .features__title,
+   .access__title,
+   .workflow__title {
+     max-width: 90%;
+     margin: 0 auto;
+   }
+
+   .features__description,
+   .access__description {
+     max-width: 100%;
+   }
+
+   .access__image {
+     width: 100%;
+     max-width: none;
+   }
+
+   .workflow__title {
+     max-width: 60%;
+   }
+
+   .tool__description {
+     margin: 1.5rem 0;
+
+   }
+
+   .workflow__subtitle {
+     max-width: 80%;
+     margin-top: 1rem;
+   }
+
+   .workflow__tools .tool img {
+     margin-bottom: 2rem;
+   }
+
+   .clients .clients__logos {
+     display: flex;
+     flex-direction: column;
+
+   }
+
+
+   
+   .footer-links {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .footer-links li {
+     margin: 1rem 0;
+   }
+
+   .footer-links img{
+    margin: 0 auto;
+   }
+
+    
+   
+   .footer-socail{
+     margin-top: 4rem;
+     margin-right:13rem;
+    }
+    .footer-socail ul{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+ 
